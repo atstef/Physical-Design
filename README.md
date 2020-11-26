@@ -19,20 +19,20 @@
 ### Day-1
 Starting from folder:
 
-![alt text](https://github.com/atstef/Physical-Design/blob/main/1.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/1.png?raw=true)
 
 ./flow.tcl -interactive
 
-![alt text](https://github.com/atstef/Physical-Design/blob/main/2.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/2.png?raw=true)
 
 
 package require openlane 0.9
 
-![alt text](https://github.com/atstef/Physical-Design/blob/main/3.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/3.png?raw=true)
 
 prep -design picorv32a [-tag trial_run1 -overwrite]
 
-![alt text](https://github.com/atstef/Physical-Design/blob/main/4.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/4.png?raw=true)
 
 A runs directory is created
 
@@ -43,21 +43,21 @@ Prepare data for interactive run. Alternatively you can run complete flow:      
 
 Sky130A_sky130_.....tcl overwrites all config settings
 
-![alt text](https://github.com/atstef/Physical-Design/blob/main/21.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/21.png?raw=true)
 
 
 Try to modify clock frequency:
 
-![alt text](https://github.com/atstef/Physical-Design/blob/main/22.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/22.png?raw=true)
 
 To set it on-the-fly you need to:
 
-![alt text](https://github.com/atstef/Physical-Design/blob/main/23.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/23.png?raw=true)
 
 #run_synthesis
 (yosys and abc)
 
-![alt text](https://github.com/atstef/Physical-Design/blob/main/24.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/24.png?raw=true)
 
 Study the report
 
@@ -78,7 +78,7 @@ Std_cells are not placed now, but in placement
 In:       openlane/configurations
 
 README:
-![alt text](https://github.com/atstef/Physical-Design/blob/main/25.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/25.png?raw=true)
 
 .tcl files have the default values
 
@@ -86,7 +86,7 @@ floorplan.tcl
 
 
 ./run_floorplan
-![alt text](https://github.com/atstef/Physical-Design/blob/main/26.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/26.png?raw=true)
 
 
 Analyse results:
@@ -95,20 +95,20 @@ Logs/floorplan
 
 .def files has information of orientation and location
 
-![alt text](https://github.com/atstef/Physical-Design/blob/main/27.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/27.png?raw=true)
 
 Press S    (to select all)   and then V (to center in screen)
-![alt text](https://github.com/atstef/Physical-Design/blob/main/28.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/28.png?raw=true)
 
 Zoom in  (left mouse click + right mouse click)
-![alt text](https://github.com/atstef/Physical-Design/blob/main/29.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/29.png?raw=true)
 
 Press S over a metal 
-![alt text](https://github.com/atstef/Physical-Design/blob/main/210.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/210.png?raw=true)
 
 Tapvpwrgnd --> for latchup
-![alt text](https://github.com/atstef/Physical-Design/blob/main/211.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/211.png?raw=true)
 
 
 STD cells are placed temporarily
-![alt text](https://github.com/atstef/Physical-Design/blob/main/212.png?raw=true)
+![alt text](https://github.com/atstef/Physical-Design/blob/main/images/212.png?raw=true)
