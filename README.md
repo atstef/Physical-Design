@@ -1,4 +1,4 @@
-# **Physical design using open-source EDA Tools
+# Physical design using open-source EDA Tools
 
 ## Table of Contents
 ###### Day-1   
@@ -9,7 +9,12 @@
 - Placement
 - Cell Design Flow
 - Lab Exercises
-
+###### Day-3 
+-xxx
+###### Day-4 
+-xxxx
+###### Day-5 
+-xxxxx
 
 
 ### Day-1
@@ -113,3 +118,17 @@ Tapvpwrgnd --> for latchup
 STD cells are placed temporarily
 
 ![alt text](https://github.com/atstef/Physical-Design/blob/main/images/211.PNG?raw=true)
+
+
+### Day-3
+
+
+### Day-4
+
+
+
+### Day-5
+
+
+
+
