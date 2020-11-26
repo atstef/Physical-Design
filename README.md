@@ -74,6 +74,7 @@ Std_cells are not placed now, but in placement
 In:       openlane/configurations
 
 README:
+
 ![alt text](https://github.com/atstef/Physical-Design/blob/main/images/25.PNG?raw=true)
 
 .tcl files have the default values
@@ -82,6 +83,7 @@ floorplan.tcl
 
 
 ./run_floorplan
+
 ![alt text](https://github.com/atstef/Physical-Design/blob/main/images/26.PNG?raw=true)
 
 
@@ -94,17 +96,22 @@ Logs/floorplan
 ![alt text](https://github.com/atstef/Physical-Design/blob/main/images/27.PNG?raw=true)
 
 Press S    (to select all)   and then V (to center in screen)
+
 ![alt text](https://github.com/atstef/Physical-Design/blob/main/images/28.PNG?raw=true)
 
 Zoom in  (left mouse click + right mouse click)
+
 ![alt text](https://github.com/atstef/Physical-Design/blob/main/images/29.PNG?raw=true)
 
 Press S over a metal 
+
 ![alt text](https://github.com/atstef/Physical-Design/blob/main/images/210.PNG?raw=true)
 
 Tapvpwrgnd --> for latchup
+
 ![alt text](https://github.com/atstef/Physical-Design/blob/main/images/211.PNG?raw=true)
 
 
 STD cells are placed temporarily
+
 ![alt text](https://github.com/atstef/Physical-Design/blob/main/images/212.PNG?raw=true)
